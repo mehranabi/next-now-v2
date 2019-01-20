@@ -1,0 +1,24 @@
+{
+  "name": "now-v2-sample",
+  "author": {
+    "name": "Mehran Abghari",
+    "email": "mehran.ab80@gmail.com"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "cross-env NODE_ENV=production node server.js"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@material-ui/core": "^3.0.9",
+    "@material-ui/icons": "^3.0.2",
+    "@zeit/next-css": "^1.0.1",
+    "express": "^4.16.4",
+    "next": "^8.0.0-canary.7",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-jss": "^8.6.1"
+  }
+}
