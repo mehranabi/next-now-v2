@@ -1,1 +1,6 @@
 /* Just for having a .css file! */
+
+.blue-text {
+	background-color: blue;
+	color: white !important;
+}

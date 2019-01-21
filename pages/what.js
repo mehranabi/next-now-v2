@@ -7,7 +7,7 @@ import FaceIcon from '@material-ui/icons/FaceRounded'
 import Link from 'next/link'
 
 // Just for test | There is nothing important in this stylesheet
-import '../static/styles/style.css'
+import * as mystyles from '../static/styles/style.css'
 
 const styles = theme => ({
   container: {
@@ -73,6 +73,7 @@ class WhatPage extends React.Component {
 						</Grid>
 					</Grid>
 				</Paper>
+				<Typography className='blue-text'>This is a blue background text - styled with .css file</Typography>
 			</div>
     )
   }

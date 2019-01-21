@@ -8,7 +8,7 @@ import JssProvider from 'react-jss/lib/JssProvider'
 import getPageContext from '../utils/getPageContext'
 
 // To fix another error !!
-import '../static/styles/another-style.css'
+import * as anotherstyles from '../static/styles/another-style.css'
 
 export default class MyApp extends App {
 	
